@@ -33,4 +33,4 @@ for trial in range(num_of_trials):
     end_time= time.time()
     total_time=  round(end_time - start_time, 2)
 
-print(f"Nice job. you finished in {total_time} with {right} right answers and {wrong} wrong answer. overall you scored and average of {(right/num_of_trials) * 100}%")
+print(f"Nice job. you finished in {total_time} seconds with {right} right answers and {wrong} wrong answer. overall you scored and average of {(right/num_of_trials) * 100}%") 

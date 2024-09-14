@@ -18,7 +18,7 @@ answers= {}
 
 for word in words:
     user_input= input(f"Enter your answers {word}")
-    answers[word]= user_input
+    answers[word]= user_input 
 
 for word in words:
     story = story.replace(word, answers[word])
